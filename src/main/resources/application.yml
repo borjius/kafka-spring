@@ -1,0 +1,10 @@
+kafka:
+  bootstrap-servers: "localhost:9092"
+  consumer:
+    group-id: boot
+schema:
+  registry:
+    url: "http://localhost:8081"
+topic:
+  boot: boot.t
+
